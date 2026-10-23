@@ -1,0 +1,15 @@
+[package]
+name = "memrium-snake"
+version = "0.1.0"
+edition = "2021"
+description = "The old game on a little green LCD, in a handheld's body."
+license = "MIT"
+repository = "https://github.com/Supchik22/memrium-snake"
+
+[[bin]]
+name = "memrium_snake"
+path = "src/main.rs"
+
+[dependencies]
+chebrium = { git = "https://github.com/Supchik22/chebrium" }
+memrium-de = { git = "https://github.com/Supchik22/memrium" }
